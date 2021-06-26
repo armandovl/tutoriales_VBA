@@ -9,15 +9,14 @@ End Sub
 
 'Preguntar para Deshabilitar un boton
 Sub DeshabilitarBoton()
-
     answer = MsgBox("¿Deshabilitar el boton?", vbYesNo)
-
+    
     If answer = vbYes Then
     CommandButton1.Enabled = False
     Else
     'no hacer nada
     End If
-
+    
 End Sub
 
 
