@@ -55,12 +55,12 @@ End Sub
 
 '****************************Habilitar e inhabilitar un boton*****                                
 Private Sub CommandButton1_Click()
-MsgBox "Ejecutando botón"
-Command.Button1.Enable = False
+    MsgBox "Ejecutando botón"
+    Command.Button1.Enable = False
 End Sub
 
 Private Sub CommandButton2_Click()
-Command.Button1.Enable = True
+    Command.Button1.Enable = True
 End Sub
                     
 
